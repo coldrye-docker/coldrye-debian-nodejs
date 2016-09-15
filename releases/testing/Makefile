@@ -6,7 +6,7 @@ provider = coldrye
 os = debian
 release = testing
 feature = nodejs
-feature_version = 4.x 5.x 6.x
+feature_version = 4.x 6.x
 tag := $(shell date +"%Y%m%d%H%M%S")
 image = $(os)-$(feature)
 
